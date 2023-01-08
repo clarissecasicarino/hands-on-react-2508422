@@ -1,3 +1,5 @@
+@import "../variables";
+
 nav ul li, nav ul li a {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -13,6 +15,6 @@ nav details li a {
 }
 
 details[role="list"] summary + ul li a:hover {
-  color: var(--primary);
+  color: $primary-500;
   font-weight: 700;
 }

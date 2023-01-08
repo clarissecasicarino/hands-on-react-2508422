@@ -1,0 +1,7 @@
+@import "./variables";
+@import '@picocss/pico';
+
+//When you are in a .scss file you dont need to place the same file extension of whatever you're importing. However, when you are in a .jsx file, that is when you need to include the .css/.scss file extension.
+h1,h2,h3,h4,h5,h6,b {
+  color: $primary-500;
+}
